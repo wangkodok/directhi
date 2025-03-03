@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/* 여백 초기화 */
+body, div, ul, li, ol, dl, dt, dd, h1, h2, h3, h4, h5, h6, input, fieldset, figure, legend, p, select, table, th, td, tr, textarea, button, form, blockquote, address, thead, tbody, tfoot, caption {
+  margin: 0;
+  padding: 0;
+}
+
+/* 폰트 설정 */
+body {
+	font-size: 16px;
+  font-family: "Noto Sans KR", "Malgun Gothic", "맑은 고딕", "Dotum", "Helvetica", "Roboto", "Arial", "Apple SD Gothic Neo", sans-serif;
+	letter-spacing: -0.02em;
+}
+
+/* 링크 초기화 */
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+/* 공백 처리 */
+img, video {
+  vertical-align: bottom;
+}
+
+/* 버튼 초기화 */
+button {
+  border: none;
+  background: none;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* 입력 필드 초기화 */
+input, textarea {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* 불릿 기호 초기화 */
+ul, ol {
+  list-style: none;
+}
+
+/* 웹 접근성 스크린 리더 */
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}

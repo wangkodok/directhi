@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+:root {
+  /* 기본 색상 */
+  --color-white: #fff;
+  --color-black: #000;
+}
