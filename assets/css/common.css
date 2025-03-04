@@ -84,3 +84,247 @@
   color: #767676;
   font-weight: 700;
 }
+
+.footer {
+  padding: 40px 0;
+  background-color: #f9f9fb;
+}
+
+.footer .inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer dfn {
+  font-style: normal;
+}
+
+.footer .menu-list {
+  display: flex;
+  margin-bottom: 56px;
+}
+
+.footer .menu-item {
+  position: relative;
+  padding-right: 32px;
+  margin-right: 32px;
+  font-size: 14px;
+}
+
+.footer .menu-item::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%) rotate(25deg);
+  width: 1px;
+  height: 14px;
+  background-color: #000;
+}
+
+.footer .menu-item:last-child::after {
+  content: none;
+}
+
+.footer .menu-item strong {
+  color: #dd5300;
+  font-weight: 700;
+}
+
+.footer .menu-item em {
+  color: #1f1f21;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.footer .info-area {
+  position: relative;
+  font-size: 14px;
+}
+
+.footer .info-area .text-info {
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer .company-info {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.footer .company-info .text-company,
+.footer .company-info dl {
+  margin-right: 24px;
+}
+
+.footer .company-info dl {
+  display: flex;
+}
+
+.footer .company-info dfn {
+  margin-right: 4px;
+}
+
+.footer address {
+  font-style: normal;
+  margin-bottom: 16px;
+}
+
+.footer .service-area {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.footer .customer-phone {
+  margin-top: 34px;
+}
+
+.footer .customer-phone .list {
+  display: flex;
+  gap: 48px;
+}
+
+.footer .customer-phone .item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer .customer-phone .main-text {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.footer .customer-phone .sub-text {
+  font-size: 14px;
+  font-style: normal;
+  margin-bottom: 12px;
+}
+
+.footer .customer-phone .phone-text {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.footer .customer-phone .day-time {
+  font-size: 14px;
+  font-style: normal;
+}
+
+.footer .select-area {
+  position: relative;
+}
+
+.footer .select-area .select-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .select-area .select-button {
+  border-radius: 16px;
+  width: 240px;
+  height: 52px;
+  border: 1px solid #dfdfe1;
+  background-color: #f9f9fb;
+  padding: 15px 24px;
+  color: #1f1f21;
+  font-size: 14px;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+.footer .select-area .select-arrow {
+  display: block;
+  background: url("../image/bg_image_sprite.png") no-repeat -697px -140px;
+	width: 28px;
+	height: 28px;
+}
+
+/* 푸터 영역 다이렉트 SNS 버튼 활성화 */
+.footer .select-area .select-button.active {
+  border-radius: 0 0 16px 16px;
+}
+
+.footer .select-dropdown {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 52px;
+  border: 1px solid #dfdfe1;
+  border-bottom: none;
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: #f9f9fb;
+  border-radius: 16px 16px 0 0;
+}
+
+.footer .select-dropdown {
+  display: none;
+}
+
+/* 푸터 영역 다이렉트 SNS 버튼 활성화 */
+.footer .select-dropdown.active {
+  display: block;
+}
+
+.footer .select-dropdown li + li {
+  margin-top: 8px;
+}
+
+.footer .select-dropdown .select-link {
+  font-size: 14px;
+}
+
+.footer .kc-mark {
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 1px solid #000;
+}
+
+.footer .kc-mark ul {
+  display: flex;
+}
+
+.footer .kc-mark li {
+  margin-right: 20px;
+}
+
+.footer .kc-mark a {
+  display: block;
+  background: url("../image/bg_image_sprite.png") no-repeat;
+  background-position-x: -753px;
+  height: 24px;
+}
+
+.footer .kc-mark li:nth-child(1) a {
+  width: 93px;
+  background-position-y: -40px;
+}
+
+.footer .kc-mark li:nth-child(2) a {
+  width: 124px;
+  background-position-y: -74px;
+}
+
+.footer .kc-mark li:nth-child(3) a {
+  width: 101px;
+  background-position-y: -108px;
+}
+
+.footer .kc-mark li:nth-child(4) a {
+  width: 92px;
+  background-position-y: -142px;
+}
+
+.footer .kc-mark li:nth-child(5) a {
+  width: 77px;
+  background-position-y: -176px;
+}
