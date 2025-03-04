@@ -1,1 +1,56 @@
 @charset "utf-8";
+
+/* sec-intro 영역 */
+.slider-area {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc(50% - 13px);
+}
+
+.slider-area .slider-item img {
+  width: 100%;
+}
+
+.slider-area .slider-pagination {
+  position: absolute;
+  top: 15px;
+  right: 40px;
+  bottom: auto;
+  left: auto;
+  width: 39px;
+  padding: 4px 0;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.4px;
+  border-radius: 20px;
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.slider-play-button {
+  position: absolute;
+  top: 15px;
+  right: 16px;
+  z-index: 2;
+}
+
+.slider-play-button .play-button {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-image: url("../image/bg_image_sprite.png") no-repeat;
+  background-position-y: -236px;
+}
+
+.slider-play-button.active .play-button {
+  background-position-x: -655px;
+}
+
+.slider-play-button.passive .play-button {
+  background-position-x: -673px;
+}
