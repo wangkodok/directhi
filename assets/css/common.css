@@ -5,3 +5,82 @@
   --color-white: #fff;
   --color-black: #000;
 }
+
+.header {
+  position: relative;
+}
+
+.header .inner {
+  width: 1200px;
+  padding-top: 41px;
+  margin: 0 auto;
+}
+
+.header .layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1 {
+  padding: 42px 0 24px;
+}
+
+.header h1 a {
+  display: block;
+  width: 205px;
+  height: 26px;
+  background: url("../image/bg_image_sprite.png") no-repeat -40px -40px;
+}
+
+.nav {
+  margin-right: 300px;
+}
+
+.nav .gnb-list {
+  display: flex;
+  gap: 54px;
+}
+
+.nav .gnb-item {
+  height: 60px;
+}
+
+.nav .gnb-item .link {
+  display: block;
+  padding: 20px 16px 0;
+  font-weight: 700;
+}
+
+.search-button {
+  display: block;
+	width: 26px;
+	height: 26px;
+  margin-top: 42px;
+  background: url("../image/bg_image_sprite.png") no-repeat -698px -270px;
+}
+
+.utility-area {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.utility-area .list {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 0;
+}
+
+.utility-area .item + .item {
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.utility-area .item .link {
+  font-size: 14px;
+  color: #767676;
+  font-weight: 700;
+}
