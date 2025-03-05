@@ -5,3 +5,43 @@
   --color-white: #fff;
   --color-black: #000;
 }
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2000;
+  transition: all 0.5s ease;
+  background-color: #f9f9fb;
+}
+
+.header.active {
+  top: -52px;
+}
+
+.header.passive {
+  display: none;
+}
+
+.header .layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 52px;
+  padding: 0 20px;
+}
+
+.header .logo {
+  display: block;
+  width: 120px;
+  height: 15px;
+  background: url("../image/m_logo.png") no-repeat;
+}
+
+.header .menu-button {
+  display: block;
+  width: 28px;
+  height: 28px;
+  background: url("../image/m_icon_menu.png") no-repeat;
+}
