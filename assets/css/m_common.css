@@ -45,3 +45,17 @@
   height: 28px;
   background: url("../image/m_icon_menu.png") no-repeat;
 }
+
+.main {
+  padding-top: 52px;
+}
+
+.main .inner {
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.bg-color-f9f9fb {
+  background-color: #f9f9fb;
+}

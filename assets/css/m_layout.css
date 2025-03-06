@@ -1,1 +1,302 @@
 @charset "utf-8";
+
+.sec-intro .inner {
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.sec-intro .sec-title {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.sec-intro .sec-title a {
+  display: block;
+  margin-right: 10px;
+}
+
+.sec-intro .sec-title img {
+  width: 88px;
+  height: auto;
+}
+
+.sec-intro .intro-layout {
+  margin-bottom: 20px;
+}
+
+.sec-intro .intro-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sec-intro .intro-item {
+  height: 110px;
+  width: calc((100% / 3) - 6.99px);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.sec-intro .intro-item:nth-child(2),
+.sec-intro .intro-item:nth-child(5),
+.sec-intro .intro-item:nth-child(8) {
+  margin-right: 0;
+}
+
+.sec-intro .intro-item:nth-child(6),
+.sec-intro .intro-item:nth-child(7),
+.sec-intro .intro-item:nth-child(8) {
+  margin-bottom: 0;
+}
+
+.sec-intro .intro-item.car {
+  width: calc((100% / 1.5) - 3.99px);
+  padding: 12px 14px;
+  box-sizing: border-box;
+  height: 120px;
+}
+
+.sec-intro .intro-item.car .title-area {
+  margin-bottom: 4px;
+}
+
+.sec-intro .intro-item.car .link-btn {
+  display: flex;
+  justify-content: center;
+  width: calc(100% - 102px);
+  margin-bottom: 4px;
+  padding: 4px 0;
+}
+
+.sec-intro .intro-item.car .link-btn:last-child {
+  margin-bottom: 0;
+}
+
+.sec-intro .intro-item.drive {
+  width: calc((100% / 3) - 6.99px);
+  height: 120px;
+}
+
+.sec-intro .intro-item .intro-link {
+  display: block;
+  height: 100%;
+  padding: 12px 14px;
+  box-sizing: border-box;
+}
+
+.sec-intro .slider-area {
+  position: relative;
+}
+
+.sec-intro .slider-area img {
+  width: 100%;
+}
+
+.sec-intro .slider-area .swiper-pagination {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  bottom: auto;
+  left: auto;
+  width: auto;
+  display: flex;
+}
+
+.sec-intro .slider-area .swiper-pagination .swiper-pagination-bullet {
+  display: block;
+  width: 6px;
+  height: 6px;
+  margin-right: 6px;
+  margin-left: 0;
+}
+
+.sec-intro .slider-area .swiper-pagination .swiper-pagination-bullet:last-child {
+  margin-right: 0
+}
+
+.sec-intro .slider-area .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #000;
+}
+
+/* 자동차 보험 */
+/* .sec-insurance .inner {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    padding: 40px 0;
+  } */
+
+.sec-insurance .sec-title {
+  margin-bottom: 10px;
+}
+
+.sec-insurance .sec-title h2 {
+  margin-bottom: 32px;
+}
+
+.sec-insurance .sec-title .sub-desc {
+  margin-top: 6px;
+}
+
+.sec-insurance .sec-contents {
+  position: relative;
+}
+
+.sec-insurance .img-bg {
+  height: 240px;
+}
+
+.sec-insurance .sec-contents .list {
+  display: flex;
+}
+
+.sec-insurance .sec-contents .item {
+  width: 50%;
+}
+
+.sec-insurance .sec-contents .link {
+  display: block;
+  position: relative;
+  padding: 19px 0 18px;
+  text-align: center;
+}
+
+.sec-insurance .sec-contents .link::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translate(0, -50%);
+  width: 28px;
+  height: 28px;
+}
+
+.sec-insurance .event-area {
+  position: absolute;
+  top: 10px;
+  right: -6px;
+  padding: 12px 12px 11px;
+}
+
+.sec-insurance .insurance-list {
+  margin-top: 32px;
+}
+
+.sec-insurance .insurance-item+.insurance-item {
+  margin-top: 8px;
+}
+
+.sec-insurance .insurance-item .link {
+  position: relative;
+  display: block;
+  padding: 20px 10px 20px 72px;
+  box-sizing: border-box;
+}
+
+.sec-insurance .insurance-item .link::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translate(0, -50%);
+  width: 46px;
+  height: 46px;
+}
+
+.sec-insurance .insurance-item .title {
+  margin-bottom: 4px;
+}
+
+.sec-insurance .insurance-item .badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 0 6px;
+}
+
+.sec-insurance .link-page {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding: 13px 0px 13px 10px;
+  margin-top: 10px;
+}
+
+.sec-insurance .link-page::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  margin-right: 6px;
+}
+
+.sec-insurance .link-page::after {
+  content: "";
+  width: 24px;
+  height: 25px;
+}
+
+/* .sec-bottom .inner {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    padding: 40px 0 40px;
+  } */
+
+.sec-bottom .link-banner img {
+  width: 100%;
+}
+
+.sec-bottom .post-area {
+  margin-top: 40px;
+}
+
+.sec-bottom .post-area .link {
+  display: block;
+  padding: 16px 0;
+  box-sizing: border-box;
+}
+
+.sec-bottom .post-area .more-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.sec-bottom .post-area .more {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 36px;
+  height: 44px;
+  box-sizing: border-box;
+}
+
+.sec-matters {
+  font-size: 12px;
+}
+
+/* .sec-matters .inner {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    padding: 40px 0;
+  } */
+
+.sec-matters .sec-title .title {
+  margin-bottom: 12px;
+}
+
+.sec-matters .list .desc-item+.desc-item {
+  margin-top: 8px;
+}
+
+.sec-matters .desc-item .desc {
+  position: relative;
+  padding-left: 10px;
+}
+
+.sec-matters .desc-item .desc::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}

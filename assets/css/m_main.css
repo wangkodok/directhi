@@ -1,1 +1,363 @@
 @charset "utf-8";
+
+.sec-intro .sec-title h2 {
+  font-size: 20px;
+  font-family: "HIMaumL";
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.sec-intro .intro-item {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.sec-intro .intro-item.car {
+  background: url("../image/img_banner_car.png") no-repeat calc(100% - 14px) calc(100% - 14px) / 92px auto #f57932;
+}
+
+.sec-intro .intro-item.car .title {
+  color: #fff;
+}
+
+.sec-intro .intro-item.car .link-btn {
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 12px;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.sec-intro .intro-item.car .link-btn.active {
+  color: #f57932;
+  background-color: #fff;
+}
+
+.sec-intro .intro-item.drive {
+  background: url("../image/img_drive.png") no-repeat calc(100% - 14px) calc(100% - 14px) / 52px auto #4c95f7;
+}
+
+.sec-intro .intro-item.drive .title {
+  color: #fff;
+}
+
+.sec-intro .intro-item.house_fire {
+  background: url("../image/img_house_fire.png") no-repeat calc(100% - 14px) calc(100% - 14px) / 52px #fff;
+}
+
+.sec-intro .intro-item.pet {
+  background: url("../image/img_pet.png") no-repeat calc(100% - 14px) calc(100% - 14px) / 52px auto #fff;
+}
+
+.sec-intro .intro-item.children {
+  background: url("../image/img_children.png") no-repeat calc(100% - 14px) calc(100% - 14px) / 52px auto #fff;
+}
+
+.sec-intro .intro-item.health {
+  background: url("../image/img_health.png") no-repeat calc(100% - 14px) calc(100% - 14px) / 52px auto #fff;
+}
+
+.sec-intro .intro-item.travel {
+  background: url("../image/img_travel.png") no-repeat calc(100% - 14px) calc(100% - 14px) / 52px auto #fff;
+}
+
+.sec-intro .intro-item.money {
+  background: url("../image/img_money.png") no-repeat calc(100% - 14px) calc(100% - 14px) / 52px auto #fff;
+}
+
+.sec-intro .intro-item .intro-link {
+  font-size: 14px;
+}
+
+.sec-intro .slider-area {
+  overflow: hidden;
+}
+
+/* 보험 콘텐츠 */
+.sec-insurance.bg-color {
+  background-color: #fff;
+}
+
+.sec-insurance .sec-title h2 {
+  font-size: 24px;
+  font-family: "HIMaumL";
+}
+
+.sec-insurance .sec-title p {
+  font-size: 14px;
+}
+
+.sec-insurance .sec-title .sub-desc {
+  font-size: 12px;
+  line-height: 1.3em;
+  letter-spacing: -0.04em;
+  color: #767678;
+}
+
+.sec-insurance .sec-contents {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.sec-insurance .img-bg {
+  border-radius: 16px 16px 0 0;
+}
+
+.sec-insurance .sec-contents .list {
+  border-radius: 0 0 16px 16px;
+  overflow: hidden;
+}
+
+.sec-insurance .sec-contents .item {
+  background-color: #fff;
+  border-right: 1px solid #efeff1;
+}
+
+.sec-insurance .sec-contents .item:last-child {
+  border-right: none;
+}
+
+.sec-insurance .sec-contents .link {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4em;
+  letter-spacing: -0.04em;
+  color: #1f1f21;
+}
+
+.sec-insurance .sec-contents .link::after {
+  content: "";
+  background: url("../image/bg_image_sprite.png") no-repeat -697px -171px;
+}
+
+.sec-insurance .event-area {
+  background-color: #fff;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+/* 말풍선 꼬리 */
+.sec-insurance .event-area::after {
+  content: "";
+  /* background: url("../image/m_"); */
+}
+
+.sec-insurance .event-area b {
+  color: #ff2d55;
+}
+
+.sec-insurance .insurance-item {
+  background-color: #f9f9fb;
+  border-radius: 16px;
+}
+
+.sec-insurance .insurance-item .link::after {
+  content: "";
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 36px 36px;
+}
+
+.sec-insurance .insurance-item .title {
+  font-size: 16px;
+  color: #1f1f21;
+}
+
+.sec-insurance .insurance-item .desc {
+  font-size: 12px;
+  font-weight: 500;
+  color: #767678;
+}
+
+.sec-insurance .insurance-item .badge {
+  border-radius: 999px;
+  font-size: 11px;
+  letter-spacing: -0.04em;
+}
+
+.sec-insurance .insurance-item .badge.orange {
+  color: #de5400;
+  background-color: #fff3f0;
+}
+
+.sec-insurance .insurance-item .badge.blue {
+  color: #007cd4;
+  background-color: #f0f5ff;
+}
+
+.sec-insurance .insurance-item .badge.green {
+  color: #319700;
+  background-color: #f3ffed;
+}
+
+.sec-insurance .insurance-item .badge.gray {
+  color: #3f3f41;
+  background-color: #efeff1;
+}
+
+.sec-insurance .link-page {
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid #ffdfc3;
+  border-radius: 30px;
+}
+
+.sec-insurance .link-page::before {
+  content: "";
+  background: url(../image/m_icon_user_check.png) no-repeat center / cover;
+}
+
+.sec-insurance .link-page::after {
+  content: "";
+  background: url(../image/m_icon_arrow.png) no-repeat;
+}
+
+/* 자동차보험 이미지 소스 */
+.sec-insurance.car .img-bg {
+  background: url(../image/img_sec_car.png) no-repeat center / contain #f57932;
+}
+
+.sec-insurance.car .insurance-item:nth-child(1) .link::after {
+  background-image: url(../image/m_icon/m_icon_insurance_car_01.png);
+}
+
+.sec-insurance.car .insurance-item:nth-child(2) .link::after {
+  background-image: url(../image/m_icon/m_icon_insurance_car_02.png);
+}
+
+.sec-insurance.car .insurance-item:nth-child(3) .link::after {
+  background-image: url(../image/m_icon/m_icon_insurance_car_03.png);
+}
+
+.sec-insurance.car .insurance-item:nth-child(4) .link::after {
+  background-image: url(../image/m_icon/m_icon_insurance_car_04.png);
+}
+
+/* 운전자보험 이미지 소스 */
+.sec-insurance.drive .img-bg {
+  background: url(../image/img_sec_drive.png) no-repeat center / contain #4c95f7;
+}
+
+/* 주택화재상해보험 이미지 소스 */
+.sec-insurance.house_fire .img-bg {
+  background: url(../image/img_sec_house_fire.png) no-repeat center / contain #ffd5a6;
+}
+
+.sec-insurance.house_fire .insurance-item:nth-child(1) .link::after {
+  background-image: url(../image/m_icon/m_icon_insurance_house_fire_01.png);
+}
+
+.sec-insurance.house_fire .insurance-item:nth-child(2) .link::after {
+  background-image: url(../image/m_icon/m_icon_insurance_house_fire_02.png);
+}
+
+.sec-insurance.house_fire .insurance-item:nth-child(3) .link::after {
+  background-image: url(../image/m_icon/m_icon_insurance_house_fire_03.png);
+}
+
+/* 굿앤굿우리펫보험 (강아지) 이미지 소스 */
+.sec-insurance.pet .img-bg {
+  background: url(../image/img_sec_pet.png) no-repeat center / contain #ffe0a5;
+}
+
+.sec-insurance.pet .insurance-item:nth-child(1) .link::after {
+  background-image: url(../image/m_icon/m_icon_insurance_pet_01.png);
+}
+
+/* 굿앤굿어린이보험 이미지 소스 */
+.sec-insurance.children .img-bg {
+  background: url(../image/img_sec_children.png) no-repeat center / contain #a6aaff;
+}
+
+.sec-insurance.children .insurance-item:nth-child(1) .link::after {
+  background-image: url(../image/m_icon/m_icon_insurance_children_01.png);
+}
+
+/* 건강보험 이미지 소스 */
+.sec-insurance.health .img-bg {
+  background: url(../image/img_sec_health.png) no-repeat center / contain #a6daff;
+}
+
+.sec-insurance.health .insurance-item:nth-child(1) .link::after {
+  background-image: url(../image/m_icon/m_icon_insurance_health_01.png);
+}
+
+.sec-insurance.health .insurance-item:nth-child(2) .link::after {
+  background-image: url(../image/m_icon/m_icon_insurance_health_02.png);
+}
+
+/* 해외여행보험 이미지 소스 */
+.sec-insurance.travel .img-bg {
+  background: url(../image/img_sec_travel.png) no-repeat center / contain #a5deff;
+}
+
+.sec-insurance.travel .insurance-item:nth-child(1) .link::after {
+  background-image: url(../image/m_icon/m_icon_insurance_travel_01.png);
+}
+
+.sec-insurance.travel .insurance-item:nth-child(2) .link::after {
+  background-image: url(../image/m_icon/m_icon_insurance_travel_02.png);
+}
+
+/* 골프보험 이미지 소스 */
+.sec-insurance.golf .img-bg {
+  background: url(../image/img_sec_golf.png) no-repeat center / contain #ffc0a5;
+}
+
+.sec-insurance.golf .insurance-item:nth-child(1) .link::after {
+  background-image: url(../image/m_icon/m_icon_insurance_golf_01.png);
+}
+
+.sec-insurance.golf .insurance-item:nth-child(2) .link::after {
+  background-image: url(../image/m_icon/m_icon_insurance_golf_02.png);
+}
+
+.sec-insurance.golf .insurance-item:nth-child(3) .link::after {
+  background-image: url(../image/m_icon/m_icon_insurance_golf_03.png);
+}
+
+.sec-bottom {
+  background-color: #fff;
+}
+
+.sec-bottom .link-banner img {
+  border-radius: 16px;
+}
+
+.sec-bottom .post-area .title {
+  font-size: 22px;
+}
+
+.sec-bottom .post-area .link {
+  border-bottom: 1px solid #efeff1;
+}
+
+.sec-bottom .post-area .desc {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.sec-bottom .post-area .more {
+  border: 1px solid #b7b7b9;
+  border-radius: 999px;
+}
+
+.sec-matters .sec-title .title,
+.sec-matters .desc-item .desc {
+  font-size: 12px;
+}
+
+.sec-matters .sec-title .title {
+  color: #1f1f21;
+}
+
+.sec-matters .desc-item .desc {
+  color: #2d2d2d;
+}
+
+.sec-matters .desc-item .desc::after {
+  width: 2px;
+  height: 2px;
+  border-radius: 999px;
+  background-color: #909090;
+}
