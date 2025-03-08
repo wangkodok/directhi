@@ -242,3 +242,60 @@
 .footer .telephone-item:nth-child(2) .icon::after {
   background-image: url(../image/m_icon_footer_user.png);
 }
+
+.dock-bar {
+  position: sticky;
+  bottom: 0;
+  z-index: 1000;
+  border-top: 1px solid #EFEFF1;
+  background-color: #fff;
+  box-shadow: 0px -1px 2px 0px rgba(0, 0, 0, 0.10);
+}
+
+.dock-bar .list {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 6px 72px 18px; */
+  padding: 6px 32px 18px;
+}
+
+.dock-bar .item .link {
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 28px auto;
+  background-position: center top;
+  padding-top: 24px;
+}
+
+.dock-bar .item:nth-child(1) .link {
+  background-image: url("../image/m_nav_bar1.png");
+}
+
+.dock-bar .item:nth-child(2) .link {
+  background-image: url("../image/m_nav_bar2.png");
+}
+
+.dock-bar .item:nth-child(3) .link {
+  background-image: url("../image/m_nav_bar3.png");
+}
+
+.dock-bar .item.on:nth-child(3) .link {
+  background-image: url("../image/m_nav_bar3_on.png");
+}
+
+.dock-bar .item:nth-child(4) .link {
+  background-image: url("../image/m_nav_bar4.png");
+}
+
+.dock-bar .item:nth-child(5) .link {
+  background-image: url("../image/m_nav_bar5.png");
+}
+
+.dock-bar .item .text {
+  font-size: 12px;
+  color: #767678;
+}
+
+.dock-bar .item.on .text {
+  color: #000;
+}
