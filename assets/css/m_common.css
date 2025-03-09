@@ -46,6 +46,218 @@
   background: url("../image/m_icon_menu.png") no-repeat;
 }
 
+/* 햄버거 메뉴 영역 */
+.hamburger-area {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10000;
+  background-color: #fff;
+  overflow-y: auto;
+  transform: translateX(100%);
+  transition: transform 0.5s ease;
+}
+
+.hamburger-area.active {
+  transform: translateX(0);
+}
+
+.hamburger-area .side-layout {
+  position: relative;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.hamburger-area .inner {
+  position: relative;
+}
+
+.hamburger-area .side-header {
+  padding: 32px;
+  border-bottom: 12px solid #f9f9fb;
+}
+
+.hamburger-area .user-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hamburger-area .user-area .login-title {
+  font-size: 20px;
+  padding-right: 20px;
+  background: url(../image/m_icon_hm_arr.png) no-repeat right;
+}
+
+.hamburger-area .user-area .sign-up {
+  font-size: 14px;
+  text-decoration: underline;
+  color: #555557;
+}
+
+.hamburger-area .icon-list {
+  display: flex;
+  margin-top: 24px;
+}
+
+.hamburger-area .icon-list .item {
+  width: calc(100% / 4);
+}
+
+.hamburger-area .icon-list .link {
+  display: block;
+}
+
+.hamburger-area .icon-list .icon {
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin: 0 auto;
+  border-radius: 999px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f9f9fb;
+}
+
+.hamburger-area .icon-list .accident-icon {
+  background-image: url(../image/m_icon_hm_accident.png);
+}
+
+.hamburger-area .icon-list .customer-icon {
+  background-image: url(../image/m_icon_hm_customer.png);
+}
+
+.hamburger-area .icon-list .certification-icon {
+  background-image: url(../image/m_icon_hm_certification.png);
+}
+
+.hamburger-area .icon-list .notice-icon {
+  background-image: url(../image/m_icon_hm_notice.png);
+}
+
+.hamburger-area .icon-list .icon-text {
+  display: block;
+  margin-top: 8px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.hamburger-area .side-nav {
+  position: sticky;
+  top: 52px;
+  padding: 18px 32px;
+  background-color: #fff;
+}
+
+.hamburger-area .side-nav .list {
+  display: flex;
+}
+
+.hamburger-area .side-nav .item {
+  margin-right: 6px;
+}
+
+.hamburger-area .side-nav .link {
+  display: block;
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 999px;
+  color: #767678;
+  background-color: #f5f5f7;
+}
+
+.hamburger-area.active .side-nav .link.active {
+  color: #fff;
+  background-color: #000;
+}
+
+.hamburger-area.active .side-nav .link.asd {
+  border: 2px solid #000;
+}
+
+.hamburger-area .side-nav .link.orange {
+  color: #ee5a00;
+}
+
+.hamburger-area .all-list {
+  padding: 0 32px;
+  border-bottom: 1px solid #efeff1;
+}
+
+.hamburger-area .all-list .title {
+  display: block;
+  padding: 36px 0 24px;
+  font-size: 20px;
+}
+
+.hamburger-area .all-list .sub-title {
+  font-size: 14px;
+  font-style: normal;
+  color: #3f3f41;
+}
+
+.hamburger-area .all-list a {
+  display: block;
+  padding: 12px 0;
+  font-weight: 500;
+}
+
+.hamburger-area .contents-list > li {
+  padding: 16px 0;
+}
+
+.hamburger-area .page-list {
+  padding: 32px 32px 64px;
+}
+
+.hamburger-area .page-item a {
+  display: block;
+  padding: 16px 0;
+}
+
+.hamburger-area .page-item b {
+  /* display: inline-block; */
+  padding-right: 32px;
+  font-size: 20px;
+  font-weight: 700;
+  background: url(../image/m_icon_hm_tablink.png) no-repeat right / 24px auto;
+}
+
+.hamburger-area .side-button {
+  /* position: absolute;
+  top: 0;
+  right: 0;
+  left: 0; */
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+}
+
+.hamburger-area .side-button .button-area {
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 16px 12px 0;
+}
+
+.hamburger-area .side-button button {
+  width: 28px;
+  height: 28px;
+  margin: 0 3px;
+  background-repeat: no-repeat;
+  background-size: 28px auto;
+  background-color: transparent;
+}
+
+.hamburger-area .side-button .search {
+  background-image: url(../image/m_icon_search.png);
+}
+
+.hamburger-area .side-button .close {
+  background-image: url(../image/m_icon_close.png);
+}
+
 .main {
   padding-top: 52px;
 }
