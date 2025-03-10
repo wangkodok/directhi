@@ -36,7 +36,12 @@ window.addEventListener("load", () => {
     } else {
       // targetPosition을 지나면 항상 활성화 상태 유지
       header.classList.add("active");
-      navContentsLink.classList.add("active");
+      if (currentScrollY === 0) {
+        navContentsLink.classList.remove("active");
+        alert("모바일 환경에서 상단 오류 발생 감지");
+      } else {
+        navContentsLink.classList.add("active");
+      }
     }
 
     lastScrollY = currentScrollY;
