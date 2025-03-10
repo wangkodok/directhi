@@ -39,8 +39,9 @@ window.addEventListener("load", () => {
       if (currentScrollY === 0) {
         navContentsLink.classList.remove("active");
       } else {
-        navContentsLink.classList.add("active");
-        alert("모바일 환경에서 상단 오류 발생 감지");
+        header.classList.remove("active");
+        // navContentsLink.classList.add("active");
+        // alert("모바일 환경에서 상단 오류 발생 감지");
       }
     }
 
