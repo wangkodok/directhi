@@ -258,6 +258,36 @@
   background-image: url(../image/m_icon_close.png);
 }
 
+.nav-link {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+}
+
+.nav-link.active {
+  display: block;
+}
+
+.nav-link .list {
+  display: flex;
+  padding: 0 20px;
+  width: max-content;
+}
+
+.nav-link .list .item {
+  margin-right: 20px;
+}
+
+.nav-link .list .link-text {
+  display: block;
+  font-size: 14px;
+  color: #767678;
+  padding: 15px 0;
+}
+
 .main {
   padding-top: 52px;
 }
