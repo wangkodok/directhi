@@ -36,7 +36,7 @@ window.addEventListener("load", () => {
     } else {
       // targetPosition을 지나면 항상 활성화 상태 유지
       header.classList.add("active");
-      if (currentScrollY === 0) {
+      if (currentScrollY < 0) {
         navContentsLink.classList.remove("active");
       } else {
         header.classList.remove("active");
