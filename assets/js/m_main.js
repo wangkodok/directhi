@@ -40,7 +40,7 @@ window.addEventListener("load", () => {
         navContentsLink.classList.remove("active");
       } else {
         header.classList.remove("active");
-        // navContentsLink.classList.add("active");
+        navContentsLink.classList.add("active");
         // alert("모바일 환경에서 상단 오류 발생 감지");
       }
     }
