@@ -541,3 +541,13 @@
 .dock-bar .item.on .text {
   color: #000;
 }
+
+.insurance-consult_icon {
+  position: fixed;
+  right: 8px;
+  bottom: 80px;
+  width: 52px;
+  height: 52px;
+  z-index: 1000;
+  background: url(../image/m_icon_insurance-consult.png) no-repeat center / 52px auto;
+}
