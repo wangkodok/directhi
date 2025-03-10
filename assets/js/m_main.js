@@ -8,41 +8,37 @@ window.addEventListener("load", () => {
   const navContentsLink = document.querySelector(".nav-link");
   let lastScrollY = window.scrollY;
 
-
-  const scrollY = targetElement.offsetTop;
-
-  if (scrollY < lastScrollY) {
-    navContentsLink.classList.add("active");
-    header.classList.add("active");
-  } else {
-    navContentsLink.classList.remove("active");
-  }
-
   window.addEventListener("scroll", () => {
     const currentScrollY = window.scrollY;
     const targetPosition = targetElement.offsetTop;
 
-    // 스크롤 위치가 특정 요소의 위치를 지나면 클래스 추가
+    // 스크롤 방향 판별
+    const isScrollingUp = currentScrollY < lastScrollY;
+
+    // 특정 구간 내에 있을 경우
     if (currentScrollY >= 0 && currentScrollY <= targetPosition) {
-      navContentsLink.classList.remove("active")
-      if (currentScrollY < lastScrollY) {
+      navContentsLink.classList.remove("active");
+
+      if (isScrollingUp) {
         // 위로 스크롤할 때
+        header.classList.add("active");
+
+        // 최상단으로 올라갔을 때는 숨김 (원하면 유지 가능)
         if (currentScrollY === 0) {
           header.classList.remove("active");
         } else {
           header.classList.remove("active");
         }
-      } else if (currentScrollY !== 0) {
+      } else {
         // 아래로 스크롤할 때
         header.classList.add("active");
       }
     } else {
-      // 구간을 벗어났을 때
+      // targetPosition을 지나면 항상 활성화 상태 유지
       header.classList.add("active");
-      navContentsLink.classList.add("active")
+      navContentsLink.classList.add("active");
     }
 
-    // 현재 스크롤 위치 저장
     lastScrollY = currentScrollY;
   });
 
