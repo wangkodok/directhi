@@ -2,7 +2,7 @@
 
 .sec-intro .sec-title h2 {
   font-size: 20px;
-  font-family: "HIMaumL";
+  font-family: var(--font-HIMaumR);
   font-weight: 400;
   line-height: 1.5em;
 }
@@ -80,7 +80,7 @@
 
 .sec-insurance .sec-title h2 {
   font-size: 24px;
-  font-family: "HIMaumL";
+  font-family: var(--font-HIMaumR);
 }
 
 .sec-insurance .sec-title p {

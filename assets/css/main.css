@@ -1,12 +1,12 @@
 @charset "utf-8";
 
 .contents .sec-title .contents-title {
-  font-family: "HIMaumL", "Noto Sans KR", serif;
+  font-family: var(--font-HIMaumR);
   font-size: 40px;
 }
 
 .sec-intro .sec-title h2 {
-  font-family: "HIMaumL", "Noto Sans KR", serif;
+  font-family: var(--font-HIMaumR);
   font-size: 26px;
   line-height: 1.4;
   color: #1f1f21;
