@@ -81,6 +81,7 @@
 .sec-insurance .sec-title h2 {
   font-size: 24px;
   font-family: var(--font-HIMaumR);
+  font-weight: normal;
 }
 
 .sec-insurance .sec-title p {
