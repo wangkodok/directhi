@@ -6,29 +6,29 @@
 }
 
 .sec-intro .sec-title h2 {
+  color: #1f1f21;
   font-family: var(--font-HIMaumR);
   font-size: 26px;
   line-height: 1.4;
-  color: #1f1f21;
 }
 
 .part-insurance .title-area .desc {
-  font-size: 18px;
   color: #1f1f21;
+  font-size: 18px;
 }
 
 .part-insurance.car .title-area .desc,
 .part-insurance.children .title-area .desc {
-  font-size: 14px;
   color: #555;
+  font-size: 14px;
 }
 
 .part-insurance.car .title-area .highlight-text,
 .part-insurance.children .title-area .highlight-text {
+  color: #1f1f21;
   font-weight: 500;
   font-size: 18px;
   font-style: normal;
-  color: #1f1f21;
 }
 
 .part-insurance .button-area .link {
@@ -40,9 +40,9 @@
 }
 
 .part-insurance .button-area .link.active {
+  border: 1px solid transparent;
   color: #fff;
   background-color: #ee5a00;
-  border: 1px solid transparent;
 }
 
 .part-insurance .badge {
@@ -66,7 +66,7 @@
   background-color: #f0f5ff;
 }
 
-.part-insurance.car .bg {background: url("../image/img_sec_car.png") no-repeat 140px 130px}
+.part-insurance.car .bg {background: url("../image/img_sec_car.png") no-repeat 140px 130px;}
 .part-insurance.drive .bg {background: url("../image/img_sec_drive.png") no-repeat 0 40px;}
 .part-insurance.health .bg {background: url("../image/img_sec_health.jpg") no-repeat 0 80px;}
 .part-insurance.children .bg {background: url("../image/img_sec_children.png") no-repeat 0 80px;}
@@ -103,8 +103,8 @@
 }
 
 .sec-intro .intro-item a {
-  border-radius: 16px;
   overflow: hidden;
+  border-radius: 16px;
   background-repeat: no-repeat;
   background-color: #f3f4f6;
   background-size: 120px 110px;
@@ -135,8 +135,8 @@
 }
 
 .sec-intro .intro-item:hover .desc {
-  opacity: 1;
   color: #fff;
+  opacity: 1;
 }
 
 .sec-intro .intro-item:hover .active-bg {
@@ -150,19 +150,19 @@
 }
 
 .sec-intro .login-item .title {
-  font-size: 20px;
   color: #3f3f41;
+  font-size: 20px;
 }
 
 .sec-intro .login-item .login-desc {
-  font-size: 14px;
   color: #555;
+  font-size: 14px;
   letter-spacing: -0.05em;
 }
 
 .sec-intro .login-item .login-link {
-  border-radius: 16px;
   color: #fff;
+  border-radius: 16px;
   background-color: #4458f6;
 }
 
@@ -171,8 +171,8 @@
 }
 
 .sec-intro .button-area .link-btn {
-  border-radius: 16px;
   border: 2px solid #fff;
+  border-radius: 16px;
   font-size: 20px;
   font-weight: 700;
   line-height: 1.3;
@@ -237,9 +237,9 @@
 .part-insurance.pet .insurance-item:nth-child(1) .link::after {background-position: -232px -274px;}
 
 .part-insurance .insurance-item h5 {
+  color: #1f1f21;
   font-size: 20px;
   font-weight: 500;
-  color: #1f1f21;
   line-height: 1.4em;
   letter-spacing: -0.04em;
 }
@@ -258,24 +258,24 @@
 }
 
 .diagnosis .desc {
+  color: #fff;
   font-size: 17px;
   font-weight: 700;
-  color: #fff;
 }
 
 .diagnosis .button {
-  border-radius: 12px;
   border: 1px solid #dfdfe1;
+  color: #3F3F41;
+  border-radius: 12px;
   background-color: #fff;
   font-size: 14px;
   font-weight: 500;
-  color: #3F3F41;
 }
 
 .sec-post .sec-title .title {
+  color: #1f1f21;
   font-size: 32px;
   font-weight: 500;
-  color: #1f1f21;
 }
 
 .sec-post .post-item + .post-item {
@@ -283,20 +283,20 @@
 }
 
 .sec-post .post-item .title {
+  display: -webkit-box;
+  overflow: hidden;
+  color: #1f1f21;
   font-size: 17px;
   font-weight: 500;
-  color: #1f1f21;
-  display: -webkit-box;
   line-clamp: 3;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .sec-post .post-item time {
-  font-size: 14px;
   color: #767676;
+  font-size: 14px;
 }
 
 .sec-post .post-item .arrow {
@@ -306,8 +306,8 @@
 }
 
 .sec-post .more-button {
-  text-decoration: underline;
   color: #767676;
+  text-decoration: underline;
 }
 
 .sec-post .more-button::after {

@@ -21,11 +21,11 @@
 }
 
 .sec-intro .intro-item.car .link-btn {
+  border: 1px solid #fff;
+  color: #fff;
   border-radius: 4px;
   font-weight: 700;
   font-size: 12px;
-  border: 1px solid #fff;
-  color: #fff;
 }
 
 .sec-intro .intro-item.car .link-btn.active {
@@ -89,10 +89,10 @@
 }
 
 .sec-insurance .sec-title .sub-desc {
+  color: #767678;
   font-size: 12px;
   line-height: 1.3em;
   letter-spacing: -0.04em;
-  color: #767678;
 }
 
 .sec-insurance .sec-contents {
@@ -105,8 +105,8 @@
 }
 
 .sec-insurance .sec-contents .list {
-  border-radius: 0 0 16px 16px;
   overflow: hidden;
+  border-radius: 0 0 16px 16px;
 }
 
 .sec-insurance .sec-contents .item {
@@ -119,11 +119,11 @@
 }
 
 .sec-insurance .sec-contents .link {
+  color: #1f1f21;
   font-size: 15px;
   font-weight: 500;
   line-height: 1.4em;
   letter-spacing: -0.04em;
-  color: #1f1f21;
 }
 
 .sec-insurance .sec-contents .link::after {
@@ -160,14 +160,14 @@
 }
 
 .sec-insurance .insurance-item .title {
-  font-size: 16px;
   color: #1f1f21;
+  font-size: 16px;
 }
 
 .sec-insurance .insurance-item .desc {
+  color: #767678;
   font-size: 12px;
   font-weight: 500;
-  color: #767678;
 }
 
 .sec-insurance .insurance-item .badge {
@@ -197,9 +197,9 @@
 }
 
 .sec-insurance .link-page {
+  border: 1px solid #ffdfc3;
   font-size: 14px;
   font-weight: 700;
-  border: 1px solid #ffdfc3;
   border-radius: 30px;
 }
 

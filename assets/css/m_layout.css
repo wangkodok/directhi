@@ -32,8 +32,8 @@
 }
 
 .sec-intro .intro-item {
-  height: 110px;
   width: calc((100% / 3) - 6.99px);
+  height: 110px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
@@ -52,9 +52,9 @@
 
 .sec-intro .intro-item.car {
   width: calc((100% / 1.5) - 3.99px);
+  height: 120px;
   padding: 12px 14px;
   box-sizing: border-box;
-  height: 120px;
 }
 
 .sec-intro .intro-item.car .title-area {
@@ -65,8 +65,8 @@
   display: flex;
   justify-content: center;
   width: calc(100% - 102px);
-  margin-bottom: 4px;
   padding: 4px 0;
+  margin-bottom: 4px;
 }
 
 .sec-intro .intro-item.car .link-btn:last-child {
@@ -94,13 +94,13 @@
 }
 
 .sec-intro .slider-area .swiper-pagination {
+  display: flex;
   position: absolute;
   top: 30px;
   right: 10px;
   bottom: auto;
   left: auto;
   width: auto;
-  display: flex;
 }
 
 .sec-intro .slider-area .swiper-pagination .swiper-pagination-bullet {
@@ -112,7 +112,7 @@
 }
 
 .sec-intro .slider-area .swiper-pagination .swiper-pagination-bullet:last-child {
-  margin-right: 0
+  margin-right: 0;
 }
 
 .sec-intro .slider-area .swiper-pagination .swiper-pagination-bullet-active {
@@ -166,9 +166,9 @@
   position: absolute;
   top: 50%;
   right: 20px;
-  transform: translate(0, -50%);
   width: 28px;
   height: 28px;
+  transform: translate(0, -50%);
 }
 
 .sec-insurance .event-area {
@@ -187,8 +187,8 @@
 }
 
 .sec-insurance .insurance-item .link {
-  position: relative;
   display: block;
+  position: relative;
   padding: 20px 10px 20px 72px;
   box-sizing: border-box;
 }
@@ -198,9 +198,9 @@
   position: absolute;
   top: 50%;
   left: 10px;
-  transform: translate(0, -50%);
   width: 46px;
   height: 46px;
+  transform: translate(0, -50%);
 }
 
 .sec-insurance .insurance-item .title {
@@ -215,8 +215,8 @@
 }
 
 .sec-insurance .link-page {
-  position: relative;
   display: inline-flex;
+  position: relative;
   align-items: center;
   padding: 13px 0px 13px 10px;
   margin-top: 10px;
@@ -265,8 +265,8 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 0 36px;
   height: 44px;
+  padding: 0 36px;
   box-sizing: border-box;
 }
 

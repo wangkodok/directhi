@@ -37,17 +37,17 @@
 }
 
 .part-insurance .badge-layout {
+  display: flex;
   position: absolute;
   top: 32px;
   right: 32px;
-  display: flex;
 }
 
 .part-insurance .button-area .link {
+  display: block;
+  width: 300px;
   padding: 15px 24px;
   text-align: center;
-  width: 300px;
-  display: block;
   box-sizing: border-box;
 }
 
@@ -92,9 +92,9 @@
   position: absolute;
   top: 0;
   left: 0;
-  padding: 27px 24px 32px 32px;
   width: calc(50% - 11px);
   height: 167px;
+  padding: 27px 24px 32px 32px;
   box-sizing: border-box;
 }
 
@@ -119,10 +119,10 @@
 }
 
 .sec-intro .intro-item a {
-  position: relative;
   display: block;
-  padding: 32px 24px 32px 32px;
+  position: relative;
   height: 167px;
+  padding: 32px 24px 32px 32px;
   box-sizing: border-box;
 }
 
@@ -145,8 +145,8 @@
 
 .sec-intro .login-item {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   height: 167px;
   margin-top: 24px;
   box-sizing: border-box;
@@ -158,9 +158,9 @@
 
 .sec-intro .login-item .login-link {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 84px;
   margin: 16px 0 0 10px;
@@ -178,9 +178,9 @@
 
 .sec-intro .button-area .link-btn {
   display: block;
-  text-align: center;
-  padding: 10px 0;
   width: 160px;
+  padding: 10px 0;
+  text-align: center;
   box-sizing: border-box;
 }
 
@@ -219,8 +219,8 @@
 }
 
 .part-insurance .insurance-item .link {
-  position: relative;
   display: block;
+  position: relative;
   height: 100%;
   padding: 32px;
   box-sizing: border-box;
@@ -236,8 +236,8 @@
 
 .diagnosis {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   height: 124px;
   gap: 400px;
 }
@@ -299,7 +299,7 @@
   position: absolute;
   top: calc(50% + 2px);
   right: 0px;
-  transform: translateY(-50%);
   width: 8px;
   height: 14px;
+  transform: translateY(-50%);
 }

@@ -69,8 +69,8 @@
 
 .hamburger-area .side-layout {
   position: relative;
-  overflow-y: auto;
   height: 100%;
+  overflow-y: auto;
 }
 
 .hamburger-area .inner {
@@ -88,15 +88,15 @@
 }
 
 .hamburger-area .user-area .login-title {
+  background: url(../image/m_icon_hm_arr.png) no-repeat right;
   font-size: 20px;
   padding-right: 20px;
-  background: url(../image/m_icon_hm_arr.png) no-repeat right;
 }
 
 .hamburger-area .user-area .sign-up {
-  font-size: 14px;
-  text-decoration: underline;
   color: #555557;
+  text-decoration: underline;
+  font-size: 14px;
 }
 
 .hamburger-area .icon-list {
@@ -164,10 +164,10 @@
 .hamburger-area .side-nav .link {
   display: block;
   padding: 6px 14px;
+  color: #767678;
   font-size: 14px;
   font-weight: 500;
   border-radius: 999px;
-  color: #767678;
   background-color: #f5f5f7;
 }
 
@@ -196,9 +196,9 @@
 }
 
 .hamburger-area .all-list .sub-title {
+  color: #3f3f41;
   font-size: 14px;
   font-style: normal;
-  color: #3f3f41;
 }
 
 .hamburger-area .all-list a {
@@ -221,21 +221,21 @@
 }
 
 .hamburger-area .page-item b {
+  background: url(../image/m_icon_hm_tablink.png) no-repeat right / 24px auto;
   /* display: inline-block; */
   padding-right: 32px;
   font-size: 20px;
   font-weight: 700;
-  background: url(../image/m_icon_hm_tablink.png) no-repeat right / 24px auto;
 }
 
 .hamburger-area .side-button {
+  position: sticky;
+  top: 0;
   /* position: absolute;
   top: 0;
   right: 0;
   left: 0; */
   background-color: #fff;
-  position: sticky;
-  top: 0;
 }
 
 .hamburger-area .side-button .button-area {
@@ -265,8 +265,8 @@
   display: none;
   position: fixed;
   top: 0;
-  width: 100%;
   z-index: 1000;
+  width: 100%;
   background-color: #fff;
 }
 
@@ -276,8 +276,8 @@
 
 .nav-link .list {
   display: flex;
-  padding: 0 20px;
   width: max-content;
+  padding: 0 20px;
 }
 
 .nav-link .list .item {
@@ -286,9 +286,9 @@
 
 .nav-link .list .link-text {
   display: block;
-  font-size: 14px;
-  color: #767678;
   padding: 15px 0;
+  color: #767678;
+  font-size: 14px;
 }
 
 .main {
@@ -332,18 +332,18 @@
   position: absolute;
   top: 50%;
   left: 0;
-  transform: translateX(-50%);
   width: 1px;
   height: 12px;
+  transform: translateX(-50%);
   margin-top: -6px;
   background-color: #B7B7B9;
 }
 
 .footer .info-area a {
   display: block;
+  color: #555557;
   font-size: 14px;
   font-weight: 500;
-  color: #555557;
 }
 
 .footer .info-area .text-color {
@@ -382,9 +382,9 @@
 }
 
 .footer .sns-list {
-  margin-top: 24px;
   display: flex;
   justify-content: center;
+  margin-top: 24px;
 }
 
 .footer .sns-item + .sns-item {
@@ -393,9 +393,9 @@
 
 .footer .sns-item .link {
   display: block;
-  background-repeat: no-repeat;
   width: 32px;
   height: 32px;
+  background-repeat: no-repeat;
 }
 
 .footer .sns-item:nth-child(1) .link {
@@ -425,15 +425,15 @@
 }
 
 .footer .telephone-item {
-  position: relative;
   display: flex;
+  position: relative;
   justify-content: center;
-  background-color: #fff;
   width: calc((100% / 2) - 4px);
+  padding: 12px 12px 12px 56px;
+  border: 1px solid #e8e8ea;
+  background-color: #fff;
   margin-right: 4px;
   border-radius: 16px;
-  border: 1px solid #e8e8ea;
-  padding: 12px 12px 12px 56px;
 }
 
 .footer .telephone-item:last-child {
@@ -461,11 +461,11 @@
   position: absolute;
   top: 50%;
   left: 8px;
+  width: 40px;
+  height: 40px;
   transform: translateY(-50%);
   background-color: #efeff1;
   border-radius: 999px;
-  width: 40px;
-  height: 40px;
 }
 
 .footer .telephone-item .icon::after {
@@ -473,11 +473,11 @@
   position: absolute;
   top: 0;
   left: 0;
+  width: 40px;
+  height: 40px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 24px auto;
-  width: 40px;
-  height: 40px;
 }
 
 .footer .telephone-item:nth-child(1) .icon::after {
@@ -537,8 +537,8 @@
 }
 
 .dock-bar .item .text {
-  font-size: 12px;
   color: #767678;
+  font-size: 12px;
 }
 
 .dock-bar .item.on .text {
@@ -549,8 +549,8 @@
   position: fixed;
   right: 8px;
   bottom: 80px;
+  z-index: 1000;
   width: 52px;
   height: 52px;
-  z-index: 1000;
   background: url(../image/m_icon_insurance-consult.png) no-repeat center / 52px auto;
 }

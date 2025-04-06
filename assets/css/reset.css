@@ -15,8 +15,8 @@ body {
 
 /* 링크 초기화 */
 a {
-  text-decoration: none;
   color: initial;
+  text-decoration: none;
 }
 
 /* 공백 처리 */
@@ -47,10 +47,10 @@ ul, ol {
 
 /* 웹 접근성 스크린 리더 */
 .blind {
+  overflow: hidden;
   position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
-  overflow: hidden;
   clip: rect(0, 0, 0, 0);
 }
