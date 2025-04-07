@@ -151,10 +151,12 @@
   top: 52px;
   padding: 18px 32px;
   background-color: #fff;
+  overflow: hidden;
 }
 
 .hamburger-area .side-nav .list {
   display: flex;
+  white-space: nowrap;
 }
 
 .hamburger-area .side-nav .item {
