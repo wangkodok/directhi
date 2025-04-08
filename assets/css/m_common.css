@@ -147,15 +147,15 @@
 }
 
 .hamburger-area .side-nav {
+  overflow: hidden;
   position: sticky;
   top: 52px;
-  padding: 18px 32px;
   background-color: #fff;
-  overflow: hidden;
 }
 
 .hamburger-area .side-nav .list {
   display: flex;
+  padding: 18px 32px;
   white-space: nowrap;
 }
 
