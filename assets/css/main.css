@@ -3,12 +3,14 @@
 .contents .sec-title .contents-title {
   font-family: var(--font-HIMaumR);
   font-size: 40px;
+  font-weight: normal;
 }
 
 .sec-intro .sec-title h2 {
   color: #1f1f21;
   font-family: var(--font-HIMaumR);
   font-size: 26px;
+  font-weight: normal;
   line-height: 1.4;
 }
 
