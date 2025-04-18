@@ -1,33 +1,44 @@
 window.addEventListener("load", () => {
   // ------------------------------------------------------
   // 사용 목적：네비게이션 드래그
-  // 사용 언어：gsap.js
+  // 사용 언어：javascript + gsap.js
   // ------------------------------------------------------
+  const list = document.querySelector(".hamburger-area .side-nav .list");
+  const nav = document.querySelector(".hamburger-area .side-nav");
+  const paddingRight = 32; // 드래그 시 오른쪽 여백
 
-  // GSAP Draggable 플러그인 등록
-  gsap.registerPlugin(Draggable);
+  let draggableInstance;
 
-  // 드래그 가능한 콘텐츠 선택
-  const dragContent = document.querySelector(".nav-link .list");
-  const container = document.querySelector(".nav-link");
+  function initDraggable() {
+    const listWidth = list.scrollWidth;
+    const navWidth = nav.clientWidth;
 
-  // 컨테이너 및 콘텐츠 크기 계산
-  const containerStyle = getComputedStyle(container);
-  const paddingLeft = parseFloat(containerStyle.paddingLeft);
-  const paddingRight = parseFloat(containerStyle.paddingRight);
-  const marginLeft = parseFloat(containerStyle.marginLeft);
-  const marginRight = parseFloat(containerStyle.marginRight);
+    // 기존 인스턴스 제거
+    if (draggableInstance) {
+      draggableInstance.kill();
+      draggableInstance = null;
+      gsap.set(list, { x: 0 }); // 위치 초기화
+    };
 
-  // Draggable 생성
-  Draggable.create(dragContent, {
-    type: "x",
-    bounds: {
-      minX: -(dragContent.offsetWidth - container.clientWidth + paddingRight + marginRight), // 오른쪽 끝 계산
-      maxX: paddingLeft + marginLeft, // 왼쪽 끝 계산
-    },
-    inertia: true, // 관성 효과
-    edgeResistance: 0.65, // 끝 저항력
-  })
+    // listWidth가 navWidth를 넘을 때만 Draggable 적용
+    if (listWidth > navWidth) {
+      const maxX = 0;
+      const minX = (navWidth - listWidth) - paddingRight; // 여백 만큼 더 빼기
+
+      draggableInstance = Draggable.create(list, {
+        type: "x",
+        bounds: { minX, maxX },
+        inertia: true,
+        cursor: "grab"
+      })[0]; // 첫 번째 Draggable 인스턴스 저장
+    };
+  };
+
+  initDraggable();
+
+  window.addEventListener("resize", () => {
+    initDraggable(); // 리사이즈 시 다시 실행
+  });
 
   // ------------------------------------------------------
   // 사용 목적：햄버거 메뉴 클릭 시 네비게이션 클릭 및 메뉴 이동
