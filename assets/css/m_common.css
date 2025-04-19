@@ -9,6 +9,10 @@
   --font-HIMaumR: "HIMaumR";
 }
 
+[class^="sec-"] {
+  scroll-margin-top: 50px;
+}
+
 .header {
   position: sticky;
   top: 0;
